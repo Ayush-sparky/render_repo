@@ -32,11 +32,8 @@ DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 # DEBUG = False
 # ALLOWED_HOSTS = ['your-app-name.onrender.com']
 # DEBUG = True
-ALLOWED_HOSTS = [
-    'reporeal.onrender.com',  # your deployed domain
-    'localhost',              # for local testing
-    '127.0.0.1',              # for local testing
-]
+ALLOWED_HOSTS = ['https://eco-nwpb.onrender.com', 'localhost', '127.0.0.1']
+
 
 
 # Application definition
